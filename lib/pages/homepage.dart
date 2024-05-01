@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
               image: DecorationImage(
                 image: NetworkImage(CardData.cards[index]['AlbumPicture']??"assets/hhh.jpg"),
                 fit: BoxFit.cover,
-                opacity: 0.8,
+                opacity: 0.9,
               ),
 
               borderRadius: BorderRadius.circular(20)
